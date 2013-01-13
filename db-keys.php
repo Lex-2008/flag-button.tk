@@ -1,0 +1,22 @@
+<?php
+define('MYSQL_HOST','mysqlserver');
+define('MYSQL_USER','user');
+define('MYSQL_PASS','pass');
+define('MYSQL_DB','flag_button');
+define('MYSQL_TZ','"+1:00"');
+define('DATE_TZ','Europe/Oslo');
+define('IPINFODB_COM_KEY','');
+define('QUOVA_COM_KEY','');
+define('QUOVA_COM_SECRET','');
+define('GEOIP_DAT_FILE','../GeoLiteCity.dat');
+define('REQUESTS_FILE','requests');
+define('CAPTCHA_SECRET','');
+define('CAPTCHA_SOLVED',false);
+define('ALLOW_RESET',true);
+define('ALLOW_CRON',true);
+define('ALLOW_CLEAR',true);
+define('ACCESS_FILE','access');
+define('SITE_NAME','flag-button.tk');//note: you should run reset.php after changing this
+define('CLEAN_CACHE_INTERVAL',5);
+define('CLEAN_CACHE_DEEP',25);
+?>
